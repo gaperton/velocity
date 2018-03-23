@@ -12,6 +12,37 @@ The Velocity application turns Fitbit Ionic to the smart digital compass and spe
 
 ## Screens
 
+### Loading screen
+
+When application starts, that will be the first screen you see. When GPS will be connected, it will switch to the compass screen automatically. You can press "up" button to switch to the time screen and back.
+
+![loading](/loading-screen.png)
+
+### Compass screen
+
+The main application screen showing the rotating compass and speed.
+
+![compass](/compass-screen.png)
+
+- The color bar at the top shows the difference between your current and average speed, indicating with a color if you are accellerating (green) or slowing down (red).
+- Average and current speed are displayed below the bar. Tap to switch between the units - knots, mph, kph.
+- The rotating compass is below, headed to your average movement direction for 10 seconds. The current heading is shown with an arrow, red if you turning left and green if you're turning right.
+- The heading in degrees is displayed at the bottom. Tap to the compass to switch between current and average heading.
+
+### Lock mode
+
+Press "down" button to enter the lock mode. Average speed and heading will be locked, and compass view will increase the resolution showing the sector of 40 degrees which will help you to keep the locked course. Press "down" button again to exit the lock mode.
+
+![lock](/lock-mode.png)
+
+### Time screen
+
+Press "up" button to switch between screens.
+
+![time](/time-screen.png)
+
+Here you can see the current time, speed, and heading. It also shows the time to sunset for you current location, which is important if you want to finish your trip before it will be dark around. When there will less time to sunset than elapsed since the application start (presuming that you started it in the beginning of your trip), time to sunset will become red indicating that you should return immediately.
+
 ## FAQ
 
 ### GPS can't connect
