@@ -14,7 +14,9 @@ The Velocity application turns Fitbit Ionic to the smart digital compass and spe
 
 ### Loading screen
 
-When application starts, that will be the first screen you see. When GPS will be connected, it will switch to the compass screen automatically.
+When application starts, that will be the first screen you see. When GPS will be connected, it will switch to the compass screen automatically. You can press "up" button to switch to the time screen and back.
+
+![loading](/loading-screen.png)
 
 ### Compass screen
 
