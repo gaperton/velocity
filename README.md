@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+# Velocity App for Fitbit Ionic
 
-You can use the [editor on GitHub](https://github.com/gaperton/velocity/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+The Velocity application turns Fitbit Ionic to the smart digital compass and speedometer using the data taken from the onboard GPS receiver. Can be used as a backup navigation solution when hiking and walking, and is an invaluable tool for the small sailboat helping you to understand how well the sails are trimmed or keep the desired course.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Features
 
-### Markdown
+- Shows the current and average speed (tap to switch between units).
+- Indicate acceleration/slowdown with a color bar.
+- Shows the rotating analog compass directed to the average heading (tap to switch between current/average heading).
+- Lock mode to lock the average heading and increase compass resolution (down button to enable/disable)
+- Calculates time to sunset/sunrise (time screen, click up button to switch between screens).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Screens
 
-```markdown
-Syntax highlighted code block
+## FAQ
 
-# Header 1
-## Header 2
-### Header 3
+### GPS can't connect
 
-- Bulleted
-- List
+GPS connection depends on satellites visibility and might take some time, especially for the "cold start" if you're starting it for the first time. Give it a few minutes and make sure you're not inside of a building. Normally, it will take somewhat about half a minute or less to connect if it's not a cold start and you're on open air. If you staying in the middle of the city with a skyscrapers blocking the sky it might take longer.
 
-1. Numbered
-2. List
+### Compass doesn't work
 
-**Bold** and _Italic_ and `Code` text
+Keep in mind that Fitbit Ionic doesn't have the real compass and the heading is being taken from the GPS, and it's actually preferable when you're in a sailboat. It means that you need to be outdoors and move for the app to determine direction properly.
 
-[Link](url) and ![Image](src)
-```
+## Support or Contact
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gaperton/velocity/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+If you have any issues or feature suggestions, please create an issue [here](https://github.com/gaperton/velocity/issues/new).
