@@ -1,11 +1,11 @@
 # Velocity App for Fitbit Ionic
 
-The Velocity application turns Fitbit Ionic to the smart digital compass and speedometer using the data taken from the onboard GPS receiver. Can be used as a backup navigation solution when hiking and walking, and is an invaluable tool for the small sailboat helping you to understand how well the sails are trimmed or keep the desired course.
+The Velocity application turns Fitbit Ionic into a smart digital compass and a speedometer using the data taken from the onboard GPS receiver. It can be used as a backup navigation solution while hiking or walking, and it is an invaluable tool for a small sailboat that helps you understand how well the sails are trimmed and keep to the desired course.
 
 ## Features
 
 - Shows the current and average speed (tap to switch between units).
-- Indicate acceleration/slowdown with a color bar.
+- Indicates acceleration/slowdown with a color bar.
 - Shows the rotating analog compass directed to the average heading (tap to switch between current/average heading).
 - Lock mode to lock the average heading and increase compass resolution (down button to enable/disable)
 - Calculates time to sunset/sunrise (time screen, click up button to switch between screens).
@@ -14,48 +14,48 @@ The Velocity application turns Fitbit Ionic to the smart digital compass and spe
 
 ### Loading screen
 
-When application starts, that will be the first screen you see. When GPS will be connected, it will switch to the compass screen automatically. You can press "up" button to switch to the time screen and back.
+This will be the first screen you'll see opening the app. When GPS connects, it will switch to the compass screen automatically. You can press the "up" button to switch to the time screen and back.
 
 ![loading](/loading-screen.png)
 
 ### Compass screen
 
-The main application screen showing the rotating compass and speed.
+The main screen that shows the rotating compass and the speed.
 
 ![compass](/compass-screen.png)
 
-- The color bar at the top shows the difference between your current and average speed, indicating with a color if you are accellerating (green) or slowing down (red).
-- Average and current speed are displayed below the bar. Tap to switch between the units - knots, mph, kph.
-- The rotating compass is below, headed to your average movement direction for 10 seconds. The current heading is shown with an arrow, red if you turning left and green if you're turning right.
-- The heading in degrees is displayed at the bottom. Tap to the compass to switch between current and average heading.
+- The color bar at the top shows the difference between your current and average speed, indicating with a color if you are speeding up (green) or slowing down (red).
+- Average and current speeds are displayed below the bar. Tap to switch between the units - knots, mph, kph.
+- The rotating compass is below, aligned with the direction of your average movement in 10 seconds. The current direction is shown with an arrow, red if you are turning left and green if you're turning right.
+- The direction of travel in degrees is displayed at the bottom. Tap the compass to switch between current and average direction.
 
 ### Lock mode
 
-Press "down" button to enter the lock mode. Average speed and heading will be locked, and compass view will increase the resolution showing the sector of 40 degrees which will help you to keep the locked course. Press "down" button again to exit the lock mode.
+Press the "down" button to enter the lock mode. Average speed and direction will be locked, and compass view will increase the scale resolution showing a sector of 40 degrees which will help you keep to the locked course. Press the "down" button again to exit the lock mode.
 
 ![lock](/lock-mode.png)
 
 ### Time screen
 
-Press "up" button to switch between screens.
+Press the "up" button to switch between screens.
 
 ![time](/time-screen.png)
 
-Here you can see the current time, speed, and heading. It also shows the time to sunset for you current location, which is important if you want to finish your trip before it will be dark around. When there will less time to sunset than elapsed since the application start (presuming that you started it in the beginning of your trip), time to sunset will become red indicating that you should return immediately.
+Here you can see the current time, speed, and direction. It also shows the time left until sunset for your current location, which is important if you want to finish your trip before the dark. When there will be less time left until sunset than time passed since the application start (presuming you launched it in the beginning of your trip), time to sunset will become red indicating you should return immediately.
 
 ## Cost and payment
 
-Velocity has 24 hours trial period and will cost 2.99 USD to unlock when the trial will end.
+Velocity has a 24 hour trial period and will cost 2.99 USD to unlock when the trial will end.
 
 ## FAQ
 
-### GPS can't connect
+### Why doesn't the GPS connect?
 
-GPS connection depends on satellites visibility and might take some time, especially for the "cold start" if you're starting it for the first time. Give it a few minutes and make sure you're not inside of a building. Normally, it will take somewhat about half a minute or less to connect if it's not a cold start and you're on open air. If you staying in the middle of the city with a skyscrapers blocking the sky it might take longer.
+The GPS connection depends on satellite visibility and might take some time, especially for the "cold start" if you're starting it for the first time. Give it a few minutes and make sure you're not inside of a building. Normally, it will take about 30 seconds or less to connect if it's not a cold start and you're outside. If you standing in the middle of a city with skyscrapers blocking the sky it might take longer.
 
-### Compass doesn't work
+### Why doesn't the compass work?
 
-Keep in mind that Fitbit Ionic doesn't have the real compass and the heading is being taken from the GPS, and it's actually preferable when you're in a sailboat. It means that you need to be outdoors and move for the app to determine direction properly.
+Keep in mind that Fitbit Ionic doesn't have a real compass and the direction is being taken from the GPS; if you're in a sailboat the GPS direction is actually preferable. You need to be outdoors and move for the app to determine direction properly.
 
 ## Support or Contact
 
