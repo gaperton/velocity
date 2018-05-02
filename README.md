@@ -45,7 +45,7 @@ Here you can see the current time, speed, and direction. It also shows the time 
 
 ## Cost and payment
 
-Velocity has a 24 hour trial period and will cost 2.99 USD to unlock when the trial will end.
+Velocity has a 1 hour trial period and will cost 1.99 USD to unlock when the trial will end.
 
 ## FAQ
 
