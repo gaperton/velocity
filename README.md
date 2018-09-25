@@ -43,10 +43,6 @@ Press the "up" button to switch between screens.
 
 Here you can see the current time, speed, and direction. It also shows the time left until sunset for your current location, which is important if you want to finish your trip before the dark. When there will be less time left until sunset than time passed since the application start (presuming you launched it in the beginning of your trip), time to sunset will become red indicating you should return immediately.
 
-## Cost and payment
-
-Velocity has a 1 hour trial period and will cost 1.99 USD to unlock when the trial will end.
-
 ## FAQ
 
 ### Why doesn't the GPS connect?
