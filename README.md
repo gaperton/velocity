@@ -4,7 +4,7 @@ The Velocity application turns Fitbit Ionic into a smart digital compass and a s
 
 ## Features
 
-- Shows the current and average speed (tap to switch between units).
+- Shows the current and maximum speed (tap to switch between units).
 - Indicates acceleration/slowdown with a color bar.
 - Shows the rotating analog compass directed to the average heading (tap to switch between current/average heading).
 - Lock mode to lock the average heading and increase compass resolution (down button to enable/disable)
@@ -24,8 +24,8 @@ The main screen that shows the rotating compass and the speed.
 
 ![compass](/compass-screen.png)
 
-- The color bar at the top shows the difference between your current and average speed, indicating with a color if you are speeding up (green) or slowing down (red).
-- Average and current speeds are displayed below the bar. Tap to switch between the units - knots, mph, kph.
+- The color speed bar shows the percentage of the current speed from the maximum, indicating with a color if you are speeding up (current speed = yellow + green) or slowing down (current speed = yellow, while the red is the slowdown from the average speed).
+- Average and current speeds are displayed above the bar. Tap to switch between the units - knots, mph, kph.
 - The rotating compass is below, aligned with the direction of your average movement in 10 seconds. The current direction is shown with an arrow, red if you are turning left and green if you're turning right.
 - The direction of travel in degrees is displayed at the bottom. Tap the compass to switch between current and average direction.
 
